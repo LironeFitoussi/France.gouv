@@ -1,0 +1,12 @@
+/*Header Settings*/
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+img.flag {
+    height: 70px;
+    margin: auto;
+}
