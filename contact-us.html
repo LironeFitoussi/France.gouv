@@ -21,26 +21,28 @@
                 <p>Contact us!</p>
                 <form>
                     <p>First Name</p>
-                    <input type="text" placeholder="Your name..">
+                    <input required type="text" placeholder="Your name..">
 
                     <p>Last Name</p>
-                    <input type="text" placeholder="Your last name..">
+                    <input required type="text" placeholder="Your last name..">
 
                     <p>Phone Number</p>
-                    <input type="tel" placeholder="Your Phone Number">
+                    <input required type="tel" placeholder="Your Phone Number">
 
                     <p>E-mail</p>
-                    <input type="email" placeholder="Your E-mail">
+                    <input required type="email" placeholder="Your E-mail">
 
                     <p>Nationality</p>
-                      <input type="radio" id="Israeli" name="Nationality" value="Israeli">
-                      <label for="Israeli">Israeli</label><br>
-                      <input type="radio" id="French" name="Nationality" value="French">
-                      <label for="French">French</label><br>
-                      <input type="radio" id="American" name="Nationality" value="American">
-                      <label for="American">American</label><br>
+                    <div>
+                        <input required type="radio" id="Israeli" name="Nationality" value="Israeli">
+                        <label for="Israeli">Israeli</label><br>
+                        <input required type="radio" id="French" name="Nationality" value="French">
+                        <label for="French">French</label><br>
+                        <input required type="radio" id="American" name="Nationality" value="American">
+                        <label for="American">American</label><br>
+                    </div>
 
-                    <textarea rows="4" cols="50" placeholder="How can we help you today?"></textarea>
+                    <textarea required placeholder="How can we help you today?"></textarea>
                     <input type="submit">
                     <input type="reset">
                 </form>
