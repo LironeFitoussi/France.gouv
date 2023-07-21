@@ -6,8 +6,9 @@ body {
     padding: 2rem;
     width: fit-content;
     align-items: center;
-    justify-self: center
-    ;}
+    justify-self: center;
+    height: fit-content;
+}
 
 .middle > p {
     justify-content: center;
