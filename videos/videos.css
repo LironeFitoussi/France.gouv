@@ -17,6 +17,7 @@ body {
 
 .videos {
     height: fit-content;
+    width:fit-content;
     display: grid;
     align-items: center;
     justify-content: center;
