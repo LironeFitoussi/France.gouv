@@ -10,10 +10,21 @@ thead {
 
 table {
   background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  max-height: 70vh;
 }
 
 td {
     border: 1px solid #ddd;
-    padding: 15px;
+    padding: 10px;
   }
 
+td:hover {
+  background-color: rgba(153, 153, 153, 0.705);
+  color: white;
+}
+
+.muni-logo {
+  height: 50px;
+  aspect-ratio: 1:1.5;
+}
