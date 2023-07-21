@@ -13,7 +13,7 @@ body {
 .middle > p {
     justify-content: center;
     font-size: 60px;
-    padding: 1rem;
+    padding: 1rem 10px;
 }
 
 .videos {
