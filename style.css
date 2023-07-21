@@ -10,6 +10,7 @@ body {
 
 /*Header Settings*/
 header {
+    position: relative;
     background-color: rgb(37, 37, 37);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
