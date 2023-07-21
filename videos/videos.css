@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-self: center;
     height: fit-content;
+    width: fit-content;
 }
 
 .middle > p {
