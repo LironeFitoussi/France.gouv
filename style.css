@@ -6,8 +6,6 @@ body {
     background-size: 100% 100%;
 }
 
-
-
 /*Header Settings*/
 header {
     position: relative;
@@ -117,6 +115,10 @@ a.footer-li:hover {
 }
 
 @media only screen and (max-width: 425px) {
+    body {
+        background-size:cover;
+    }
+    
     header {
         font-size: 12px;
         grid-template-columns: 1fr 1.25fr 1fr;
