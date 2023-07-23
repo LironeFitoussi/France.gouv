@@ -115,3 +115,31 @@ a.footer-li {
 a.footer-li:hover {
     color: black;
 }
+
+@media only screen and (max-width: 425px) {
+    header {
+        font-size: 12px;
+        grid-template-columns: 1fr 1.25fr 1fr;
+    }
+    img.flag {
+        height: 30px;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    h1.hp {
+        position: static;
+        margin: 6rem 0;
+    }
+
+    div.middle > p {
+        font-size: 12px;
+        height: 100%;
+    }
+}
+    
+
