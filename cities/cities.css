@@ -34,3 +34,14 @@ td:hover {
   aspect-ratio: 1.5 / 1;
 }
 
+@media only screen and (max-width: 425px) {
+  table {
+    width: min-content;
+  }
+
+  td.muni
+  td.muni-logo > img{
+    vertical-align: middle;  
+  }
+}
+
